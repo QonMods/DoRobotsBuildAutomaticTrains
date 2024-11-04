@@ -1,0 +1,51 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+  Bugfixes:
+    - Fixed that trains went into automatic mode before checking ghosts at the back of the train.
+    - Fixed that trains without locomotives would be set to automatic mode.
+    - Thanks Techlone for [reporting these bugs!](https://mods.factorio.com/mod/DoRobotsBuildAutomaticTrains/discussion/60b00d504c3f8600d360627e)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+  Bugfixes:
+    - Fixed so trains don't go into auto mode when part if it is decontructed, which also cancelled
+      deconstruction of rest of the train.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+  Bugfixes:
+    - Fixed so it works with editor mode instant blueprinting also. It will now start any train
+      built in automatic mode. Might be annoying when you want to build a single locomotive to drive
+      manually since you would have to switch the mode to manual. But there's a mod for
+      automatically switching trains to manual mode when you try to drive them...
+      [Auto Manual Mode by Roy192](https://mods.factorio.com/mod/auto_manual_mode)
+      Thanks AmericanPatriot for reporting the bug!
+      https://mods.factorio.com/mod/DoRobotsBuildAutomaticTrains/discussion/608b8d17fb3f071f0f0a50ad
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+  Info:
+    - Updated for Factorio v1.1
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+  Bugfixes:
+    - Fixed a multiplayer unsafe bug where the on_nth_tick handler that is used while a train is
+      being fueled wasn't added on load.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+  Info:
+    - Updated for Factorio v0.18
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+  Changes:
+    - Removed rich text from title.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+  Bugfixes:
+    - Deconstructing trains no longer sets them to auto mode, which also canceled their deconstruction.
+  Changes:
+    - Trains only switch to automatic mode once robots have filled the locomotives with fuel if those are included in the blueprint.
+      Thanks to iccor56 for suggesting it. https://mods.factorio.com/mod/DoRobotsBuildAutomaticTrains/discussion/5cd6428f63d5b1000dc3610a
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+  Major Features:
+    - Initial release.
+      Mod name suggested by eradicator https://forums.factorio.com/viewtopic.php?f=34&t=70583&p=428862#p428836
+
